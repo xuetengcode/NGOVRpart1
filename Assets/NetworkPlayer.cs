@@ -46,8 +46,8 @@ public class NetworkPlayer : NetworkBehaviour
         myXRCam = GameObject.Find("Main Camera").transform;
 
         //pointers to the avatar
-        avLeft = transform.Find("Left Hand");
-        avRight = transform.Find("Right Hand");
+        avLeft = transform.Find("LeftHand");
+        avRight = transform.Find("RightHand");
         avHead = transform.Find("Head");
         avBody = transform.Find("Body");
     }
