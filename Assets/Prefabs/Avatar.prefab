@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2325412405408920253}
   - component: {fileID: 9018957320372989441}
   m_Layer: 0
-  m_Name: RightHand
+  m_Name: RightThumb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2197603755186146168}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.54789305, y: 6.925, z: -18.661814}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.03, y: 0.05, z: 0.03}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8648646583996488588}
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 826592268929477269}
   - component: {fileID: 4518597516159002136}
   m_Layer: 0
-  m_Name: LeftHand
+  m_Name: LeftThumb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ Transform:
   m_GameObject: {fileID: 2734176154059424226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.00989306, y: 6.925, z: -18.661814}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.03, y: 0.05, z: 0.03}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8648646583996488588}
@@ -249,7 +249,7 @@ MonoBehaviour:
   RotAngleThreshold: 0.01
   ScaleThreshold: 0.01
   InLocalSpace: 0
-  Interpolate: 1
+  Interpolate: 0
 --- !u!1 &6594625432418196157
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,7 +329,7 @@ MonoBehaviour:
   RotAngleThreshold: 0.01
   ScaleThreshold: 0.01
   InLocalSpace: 0
-  Interpolate: 1
+  Interpolate: 0
 --- !u!114 &1787951806363247180
 MonoBehaviour:
   m_ObjectHideFlags: 0
